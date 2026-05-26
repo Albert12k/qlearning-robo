@@ -1,21 +1,3 @@
-"""
-========================================================
- Atividade de Machine Learn
-========================================================
-
-OBJETIVO:
-  Implementar o algoritmo Q-Learning para treinar um agente (robô) a
-  navegar em um ambiente 5x5, evitando obstáculos e alcançando o objetivo.
-
-PARÂMETROS:
-  - Alpha (α): taxa de aprendizado — quanto o agente atualiza seus valores
-  - Gamma (γ): fator de desconto — importância de recompensas futuras
-  - Epsilon (ε): taxa de exploração — equilíbrio entre explorar e explotar
-
-FÓRMULA DE BELLMAN (atualização Q):
-  Q(s,a) ← Q(s,a) + α * [r + γ * max(Q(s',a')) - Q(s,a)]
-"""
-
 import random
 import time
 
